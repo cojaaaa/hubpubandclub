@@ -37,7 +37,7 @@
     
   </head>
   <body>
-  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,17 +45,15 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Početna Strana</a></li>
-	          <li class="nav-item"><a href="index.html" class="nav-link">?</a></li>
-	          <li class="nav-item"><a href="jelovnik.html" class="nav-link">Jelovnik(radi se)</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">?</a></li>
-	          <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">?</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">O nama</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">?</a></li>
+			<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Početna Strana</a></li>
+	          <li class="nav-item"><a href="#o-nama" class="nav-link">O nama</a></li>
 	          
+	          
+			  <li class="nav-item"><a href="jelovnik.php" class="nav-link">Jelovnik</a></li>
+			  <li class="nav-item"><a href="services.php" class="nav-link">Karta pica</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
-	          
+	          <li class="nav-item cart"><a href="cart.html" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
 	        </ul>
 	      </div>
 		  </div>
