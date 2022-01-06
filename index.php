@@ -38,27 +38,7 @@
     
   </head>
   <body>
-  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-			<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
-	          <li class="nav-item"><a href="index.php" class="nav-link">Početna Strana</a></li>
-	          <li class="nav-item"><a href="#o-nama" class="nav-link">O nama</a></li>
-	          
-	          
-			  <li class="nav-item"><a href="jelovnik.php" class="nav-link">Jelovnik</a></li>
-			  <li class="nav-item"><a href="services.php" class="nav-link">Karta pića</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
-	          <li class="nav-item cart"><a href="cart.html" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
-	        </ul>
-	      </div>
-		  </div>
-	  </nav>
+  	<?php include "nav.php" ?>
     
     <section class="home-slider owl-carousel">
       <div class="slider-item" style="background-image: url(images/spolja.jpg);">
@@ -562,78 +542,12 @@
     	</div>
     </section>
 
-    <footer class="ftco-footer ftco-section img">
-    	<div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About Us</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Cooked</a></li>
-                <li><a href="#" class="py-2 d-block">Deliver</a></li>
-                <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
-                <li><a href="#" class="py-2 d-block">Mixed</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Imate pitanje?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">2 Generala Tranijea 1, Niš</span></li>
-	                <li><a href="href=tel:+381183501336" style="margin-top:5px"><span class="icon icon-phone"></span><span class="text">+381 18 3501336</span></a></li>
-	                <li><a href="mailto:info@thehub.rs"><span class="icon icon-envelope"></span><span class="text">info@thehub.rs</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>    <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a> </p>
-  			<a href="#pocetak"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php include "footer.php"; ?>
     
   
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+	<?php include "skripte.php"; ?>
+  
     
   </body>
 </html>
