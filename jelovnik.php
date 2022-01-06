@@ -37,7 +37,7 @@
     
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,14 +51,13 @@
 	          
 	          
 			  <li class="nav-item"><a href="jelovnik.php" class="nav-link">Jelovnik</a></li>
-			  <li class="nav-item"><a href="services.php" class="nav-link">Karta pica</a></li>
+			  <li class="nav-item"><a href="services.php" class="nav-link">Karta pića</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
 	          <li class="nav-item cart"><a href="cart.html" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
 	        </ul>
 	      </div>
 		  </div>
 	  </nav>
-    <!-- END nav -->
 
     <section class="home-slider owl-carousel">
 
