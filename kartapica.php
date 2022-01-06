@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>The Hub | Pub & Club</title>
+  <title>The Hub | Karta pića</title>
   <?php include "pocetni-linkovi.php";?>
   </head>
   <body>
