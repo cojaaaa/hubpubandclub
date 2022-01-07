@@ -21,7 +21,7 @@
             	<span class="subheading">Dobrodošli</span>
               <h1 class="mb-4">THE HUB - PUB & CLUB</h1>
               
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">O nama</a>
+              <p><a href="#o-nama" class="btn btn-primary p-3 px-xl-4 py-xl-3">O nama</a>
             </div>
 
           </div>
@@ -37,7 +37,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">Ambijent za poželeti</h1>
               <p class="mb-4 mb-md-5">Pažljivom restauracijom vratili smo joj dušu čija aura svetli žamorom ljudi, kvalitetnim muzičkim vibracijama, zveckanjem čaša i zvukom mešanja koktela</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+              <p><a href="jelovnik.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Pogledajte Naš jelovnik</a></p>
             </div>
 
           </div>
@@ -53,7 +53,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">U Srcu Niša</h1>
               <p class="mb-4 mb-md-5">Objekat dodatno dobija na značaju kada pročitate zanimljivu priču o ulici u kojoj se nalazi.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+              <p><a href="kartapica.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Pogledajte Našu kartu pića</a></p>
             </div>
 
           </div>

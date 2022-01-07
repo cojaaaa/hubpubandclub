@@ -210,7 +210,6 @@
         	<div class="col-md-6 mb-5 pb-3">
         		<h3 class="mb-5 heading-pricing ftco-animate">Čajevi<br><span style="font-size: 15px;color: #524f4f;">Dolcezza</span></h3>
 				
-				<h5>Crni čaj</h3><br>
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
@@ -247,7 +246,6 @@
 						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
-				<h5>Zeleni čaj</h3><br>
 				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
@@ -260,7 +258,7 @@
 				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Green apple</span></h3>
+	        				<h3><span>Green Apple</span></h3>
 	        				<span class="price">130 rsd</span>
 	        			</div>
 						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
@@ -284,7 +282,6 @@
 						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
-				<h5>Crveni čaj</h3><br>
 				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
@@ -682,45 +679,7 @@
 						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
-
         	</div>
-			<div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Homemade sweets</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>The Hub Obsession</span></h3>
-	        				<span class="price">320 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Dobro poznat, klasičan ukus čokoladne torte sa specijalnim dodatkom naše Hub magije</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Choco Orange</span></h3>
-	        				<span class="price">290 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Narandža, nutela, plazma, šlag</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Sweet Cherry</span></h3>
-	        				<span class="price">290 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Višnja, nutela, plazma, šlag</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-        </div>
     	</div>
     </section>
 
