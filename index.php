@@ -309,7 +309,7 @@
 		              					<h3><a href="">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="jelovnik.html" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
+		              					<p><a href="jelovnik.php" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
 		              				</div>
 		              			</div>
 		              		</div>
