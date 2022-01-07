@@ -17,8 +17,8 @@
           <div class="row slider-text justify-content-center align-items-center">
 
             <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Meni</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Početna Stranica</a></span> <span>Meni</span></p>
+            	<h1 class="mb-3 mt-5 bread">Karta Pića</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Početna Stranica</a></span> <span>Karta Pića</span></p>
             </div>
 
           </div>
@@ -32,547 +32,659 @@
     	<div class="container">
         <div class="row">
         	<div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Hladna predjela - <span style="font-size: 15px;color: #524f4f;">daska</span> </h3>
+        		<h3 class="mb-5 heading-pricing ftco-animate">Costa Coffee<br><span style="font-size: 15px;color: #524f4f;">Signature Blend Dark Roast </span> </h3>
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Suhomesnato</span></h3>
-	        				<span class="price">990 rsd</span>
+	        				<h3><span>Espresso</span></h3>
+	        				<span class="price">140 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Svinjska pršuta, goveđa pečenica, kulen i goveđa pršuta</p>
-	        			</div>
-						<span style="float:right;border-bottom:1px solid #c49b63;font-size:14px"><a href="cart.html">+ Dodaj u korpu</a></span>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
         			</div>
         		</div>
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Sirevi</span></h3>
-	        				<span class="price">800 rsd</span>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Espresso dopio</span></h3>
+	        				<span class="price">210 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Dimljeni kaonički, dimljena mozzarella, sir u vinu, hajdučki i gauda</p>
-	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Daska The Hub</span></h3>
-	        				<span class="price">1950 rsd</span>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Espresso sa mlekom</span></h3>
+	        				<span class="price">210 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Svinjska pršuta, goveđa pršuta, goveđa pečenica,
-dimljena mozzarella, gauda, sir u vinu, hajdučki,
-kulen, dimljeni kaonički i masline
-</p>
-	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
+	        		
         		</div>
-        		<h3 class="mb-5 heading-pricing ftco-animate">Topla predjela</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
+				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Brusketi caprese</span></h3>
-	        				<span class="price">320 rsd</span>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Machiatto</span></h3>
+	        				<span class="price">150 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Gorgonzola namaz, mozzarella, čeri paradajz i pesto</p>
-	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
+	        		
         		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
+				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Brusketi masline</span></h3>
-	        				<span class="price">320 rsd</span>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Cappuccino</span></h3>
+	        				<span class="price">170 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Gorgonzola namaz, crne i zelene masline i mirođija</p>
-	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
+	        		
         		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
+				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Brusketi losos</span></h3>
-	        				<span class="price">320 rsd</span>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Double Cappuccino </span></h3>
+	        				<span class="price">240 rsd</span>
 	        			</div>
-	        			<div class="d-block">
-	        				<p>- Sirni namaz, dimljeni losos, čeri paradajz i mirođija</p>
-	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
+	        		
         		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
+				<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Brusketi vegan</span></h3>
-	        				<span class="price">320 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Gvakamoli namaz, chia seme, kikiriki i čeri paradajz</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span> Pohovani sir <strong style="color:#c49b63">“a la Chef”</strong> </span></h3>
-	        				<span class="price">350 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Pohovani sir sa cimetom, jabukom i sosom od višanja</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-        	<div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Jela po porudzbini</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Obsession (biftek)</span></h3>
-	        				<span class="price">1500 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Biftek, krompir <strong style="color:#c49b63">“a la Chef”</strong>, mlada boranija, povrće i gorgonzola</p>
-	        			</div>
-        			</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>The Hub (biftek)</span></h3>
-	        				<span class="price">1500 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Biftek, mus od pršute, krompir <strong style="color:#c49b63">“a la Chef”</strong> i povrće</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Lasagne</span></h3>
-	        				<span class="price">790 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>mleveno juneće meso, pelat, gauda, beli, crni luk, biber, crveno vino i origano</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Piletina u belom sosu</span></h3>
-	        				<span class="price">550 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Pileći file, dimljeni kaonički, gauda, pavlaka, parmezan i pomfrit</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Rebarca <strong style="color:#c49b63">“a la Chef”</strong></span></h3>
-	        				<span class="price">790 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Marinirana rebra sa krompirom <strong style="color:#c49b63">“a la Chef”</strong>, sos od pečuraka i onion rings</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Svinjski file <strong style="color:#c49b63">“a la Chef”</strong></span></h3>
-	        				<span class="price">750 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Svinjski file sa sosom od pečuraka, krompir <strong style="color:#c49b63">“a la Chef”</strong> i onion </p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Selekcija kobasica</span></h3>
-	        				<span class="price">750 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>McCain krompir i kobasica</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Pileće fingersice</span></h3>
-	        				<span class="price">530 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>pohovani pileći file, pomfrit, burger sos i parmezan</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-
- <div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Risotto</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Risotto sa piletinom</span></h3>
-	        				<span class="price">550 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Piletina sa pirinčem, parmezanom, pavlakom i povrćem</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Risotto sa povrćem</span></h3>
-	        				<span class="price">520 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Pirinač sa povrćem, pavlakom i parmezanom</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<h3 class="mb-5 heading-pricing ftco-animate">Pizza</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Margarita</span></h3>
-	        				<span class="price">690 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Mozzarella, pelat i bosiljak</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Capriciosa</span></h3>
-	        				<span class="price">790 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Mozzarella, pelat, šunka i šampinjoni</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Prosciutto</span></h3>
-	        				<span class="price">890 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Mozzarella, pelat, goveđa pršuta i rukola</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Porto Bane</span></h3>
-	        				<span class="price">820 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Mozzarella, kozji sir, beli luk, rukola i bosiljak</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<h3 class="mb-5 heading-pricing ftco-animate">Ribe i morski plodovi</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Losos Mediteraneo</span></h3>
-	        				<span class="price">1250 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- File lososa na pireu sa sosom od gambora i povrća</p>
-	        			</div>
-	        		</div>
-        		</div>
-
-        	</div>
-
- <div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Burrito</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Meksica</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>mleveno juneće meso, kukuruz šećerac, crveni pasulj, zeleni 490 rsd
-kupus, šargarepa, tortilja, pomfrit i chili</p>
-	        			</div>
-        			</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Chicken</span></h3>
-	        				<span class="price">460 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>piletina, ljubičasti kupus, šargarepa, kukuruz šećerac, crveni
-pasulj, pomfrit i pavlaka</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<h3 class="mb-5 heading-pricing ftco-animate">Pasta - <span style="font-size: 15px;color: #524f4f;">la Molisana</span></h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Beef tagliatelle</span></h3>
-	        				<span class="price">690 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Tagliatelle, biftek, povrće, parmezan i čeri paradajz</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Penne sa piletinom</span></h3>
-	        				<span class="price">620 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Pene sa piletinom, goveđom pršutom, parmezanom i pavlakom</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Bolognese</span></h3>
-	        				<span class="price">590 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Fusili u bolognese sosu sa parmezanom i čeri paradajzom</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Penne bianca</span></h3>
-	        				<span class="price">690 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Pene u sosu od goveđe pršute, masline, pavlake i parmezana</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-
-
-
- <div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Obrok salate</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Beef</span></h3>
-	        				<span class="price">600 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Biftek, mix green, parmezan, čeri paradajz i burger sos</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Chicken</span></h3>
-	        				<span class="price">620 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Grilovani pileći file, mix green, slanina, sos, parmezan i čeri paradajz</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Grčka</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Crvena ili zelena paprika, krastavac, crveni luk, paradajz, masline, feta sir i origano</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Vitaminska</span></h3>
-	        				<span class="price">290 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Crveni i zeleni kupus, paprika, šargarepa, jabuka i lešnik</p>
-	        			</div>
-	        		</div>
-        		</div>
-
-        	</div>
- <div class="col-md-6">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Burgeri</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Burger The Hub</span></h3>
-	        				<span class="price">560 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Juneći burger, burger sos, čedar, zelena salata, luk, paradajz, pomfrit i pohovani sir</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Burger France Aioli</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Juneći burger, France Aioli dressing, zelena salata, paradajz, crveni luk, čedar i pomfrit</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Burger Traf Aioli</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Juneći burger, krema od tartufa, čeder, pomfrit, paradajz, luk i zelena salata</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Burger Sambal</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Juneći burger, Sambal dressing, zelena salata, paradajz, crveni luk, čedar i pomfrit</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Chicken burger</span></h3>
-	        				<span class="price">490 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Piletina, tost kačkavalj, zelena salata i pomfrit</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-<div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Dodaci</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Integralni trouglići sa maslinama</span></h3>
-	        				<span class="price">80 rsd</span>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Grilovano povrće</span></h3>
-	        				<span class="price">220 rsd</span>
-	        			</div>
-	        			
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Onion rings</span></h3>
-	        				<span class="price">280 rsd</span>
-	        			</div>
-	        			
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Krompir <strong style="color:#c49b63">"a la Chef"</strong></span></h3>
-	        				<span class="price">220 rsd</span>
-	        			</div>
-	        			
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Pavlaka</span></h3>
-	        				<span class="price">50 rsd</span>
-	        			</div>
-	        			
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Pomfrit</span></h3>
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Coffeelatte</span></h3>
 	        				<span class="price">180 rsd</span>
 	        			</div>
-	        			
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+	        		
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Bailey’s coffee</span></h3>
+	        				<span class="price">220 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+	        		
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+					<div class="d-flex text align-items-center">
+	        				<h3><span>Coffeefredo</span></h3>
+	        				<span class="price">190 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+	        		
+        		</div>
+        		<h3 class="mb-5 heading-pricing ftco-animate">Nescafe</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Nescafe topli</span></h3>
+	        				<span class="price">160 rsd</span>
+	        			</div>
+	        			<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Nescafe hladni</span></h3>
+	        				<span class="price">160 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bailey’s nescafe</span></h3>
+	        				<span class="price">220 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ice coffee</span></h3>
+	        				<span class="price">220 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Irish coffee</span></h3>
+	        				<span class="price">240 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<h3 class="mb-5 heading-pricing ftco-animate">Topla čokolada</h3>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Topla čokolada crna</span></h3>
+	        				<span class="price">200 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Topla čokolada bela</span></h3>
+	        				<span class="price">200 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Topla čokolada extra dark</span></h3>
+	        				<span class="price">200 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Topla čokolada sa rumom</span></h3>
+	        				<span class="price">270 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+
+        	</div>
+			
+        	<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Čajevi<br><span style="font-size: 15px;color: #524f4f;">Dolcezza</span></h3>
+				
+				<h5>Crni čaj</h3><br>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>English Breakfast Tea</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Earl Grey</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Christmas Tea</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Blackberry</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<h5>Zeleni čaj</h3><br>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>China Sencha</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Green apple</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Sweet Mama</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Jasmine</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<h5>Crveni čaj</h3><br>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Mango Flip</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Fruit Garden</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Pina Colada</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Sweet Fruit</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Wild Orange</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Wild Cherry</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<h3 class="mb-5 heading-pricing ftco-animate">Biljni čaj</h3>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Chamomile</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Nana</span></h3>
+	        				<span class="price">130 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        		
+        	</div>
+
+
+ 			<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Gazirani sokovi</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Coca cola</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Coca cola Zero</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Sprite</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Fanta orange</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Schweppes bitter lemon</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Schweppes tonic water</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Schweppes tangerine</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        	</div>
+
+
+
+ 			<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Negazirani sokovi</h3>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next narandža</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next jabuka</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next jagoda</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next breskva</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next višnja</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Next šumsko voće</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Fuze Tea breskva & hibiskus (stevia)</span></h3>
+	        				<span class="price">170 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+        	</div>
+			<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Točena piva</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Erdinger 0.3l</span></h3>
+	        				<span class="price">320 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Erdinger 0.5</span></h3>
+	        				<span class="price">390 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Carslberg 0.3l</span></h3>
+	        				<span class="price">260 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Carslberg 0.5l</span></h3>
+	        				<span class="price">320 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Budwieser svetlo 0.3l</span></h3>
+	        				<span class="price">260 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Budwieser svetlo 0.5l</span></h3>
+	        				<span class="price">320 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Budwieser tamno 0.3l</span></h3>
+	        				<span class="price">240 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Budwieser tamno 0.5l</span></h3>
+	        				<span class="price">290 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Kronenbourg 0.3l</span></h3>
+	        				<span class="price">250 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Kronenbourg 0.5l</span></h3>
+	        				<span class="price">300 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
         	</div>
         	<div class="col-md-6 mb-5 pb-3">
-        		<h3 class="mb-5 heading-pricing ftco-animate">Healthy food</h3>
+        		<h3 class="mb-5 heading-pricing ftco-animate">Piva u flašicama</h3>
         		<div class="pricing-entry d-flex ftco-animate">
-
         			<div class="desc pl-3">
-
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Salata <strong style="color:#c49b63">“a la Chef”</strong></span></h3>
-	        				<span class="price">550 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Green mix, šargarepa, celer, jabuka, mozzarella, krastavac, čeri paradajz i sok od narandže</p>
-	        			</div>
+	        				<h3><span>Guinness</span></h3>
+	        				<span class="price">500 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>San Miguel</span></h3>
+	        				<span class="price">340 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Erdinger</span></h3>
+	        				<span class="price">300 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Erdinger tamno</span></h3>
+	        				<span class="price">350 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Carslberg</span></h3>
+	        				<span class="price">260 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Grimbergen blanche</span></h3>
+	        				<span class="price">240 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Grimbergen blonde</span></h3>
+	        				<span class="price">240 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Grimbergen ambree</span></h3>
+	        				<span class="price">260 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Budwieser tamno</span></h3>
+	        				<span class="price">270 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Tuborg</span></h3>
+	        				<span class="price">240	 rsd</span>
+	        			</div>						
+						<input type="submit" style="background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer" value="+ Poruci">
 	        		</div>
         		</div>
 
-        		<h3 class="mb-5 heading-pricing ftco-animate">Slana palačinka</h3>
-        		<div class="pricing-entry d-flex ftco-animate">
-
-        			<div class="desc pl-3">
-
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>The Hub Pancake</span></h3>
-	        				<span class="price">360 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Šunka, gauda, marinirane pečurke, kisela pavlaka</p>
-	        			</div>
-	        		</div>
-        		</div>
         	</div>
-        	</div>
-<div class="col-md-6 mb-5 pb-3">
+			<div class="col-md-6 mb-5 pb-3">
         		<h3 class="mb-5 heading-pricing ftco-animate">Homemade sweets</h3>
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="desc pl-3">
