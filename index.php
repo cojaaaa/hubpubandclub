@@ -21,7 +21,7 @@
             	<span class="subheading">Dobrodošli</span>
               <h1 class="mb-4">THE HUB - PUB & CLUB</h1>
               
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">O nama</a>
+              <p><a href="#o-nama" class="btn btn-primary p-3 px-xl-4 py-xl-3">O nama</a>
             </div>
 
           </div>
@@ -37,7 +37,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">Ambijent za poželeti</h1>
               <p class="mb-4 mb-md-5">Pažljivom restauracijom vratili smo joj dušu čija aura svetli žamorom ljudi, kvalitetnim muzičkim vibracijama, zveckanjem čaša i zvukom mešanja koktela</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+              <p><a href="jelovnik.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Poruči Odmah!</a> <!-- <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Jelovnik</a></p> -->
             </div>
 
           </div>
@@ -53,7 +53,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">U Srcu Niša</h1>
               <p class="mb-4 mb-md-5">Objekat dodatno dobija na značaju kada pročitate zanimljivu priču o ulici u kojoj se nalazi.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+              <p><a href="#rezervisi" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rezerviši</a> <!-- <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Jelovnik</a></p> -->
             </div>
 
           </div>
@@ -133,7 +133,7 @@
 	            <h2 class="mb-4">Naš Meni</h2>
 	            <p class="mb-4">Pogledajte naš veliki asortiman hrane koju Vam nudimo, i razna pića koja idu uz to.</p>
 	            <p><a href="pica.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Karta pića</a><span>&nbsp;&nbsp;</span>
-				<a href="jelovnik.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Jelovnik</a></p>
+				<a href="jelovnik.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Jelovnik</a></p>
 	          </div>
     			</div>
     			<div class="col-md-6">
@@ -464,7 +464,7 @@
     
 
 		
-		<section class="ftco-appointment">
+		<section class="ftco-appointment" id="rezervisi">
 			<div class="overlay"></div>
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
