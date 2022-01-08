@@ -37,7 +37,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">Ambijent za poželeti</h1>
               <p class="mb-4 mb-md-5">Pažljivom restauracijom vratili smo joj dušu čija aura svetli žamorom ljudi, kvalitetnim muzičkim vibracijama, zveckanjem čaša i zvukom mešanja koktela</p>
-              <p><a href="jelovnik.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Pogledajte Naš jelovnik</a></p>
+              <p><a href="jelovnik.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Naš Jelovnik</a></p>
             </div>
 
           </div>
@@ -53,7 +53,7 @@
             	<span class="subheading"></span>
               <h1 class="mb-4">U Srcu Niša</h1>
               <p class="mb-4 mb-md-5">Objekat dodatno dobija na značaju kada pročitate zanimljivu priču o ulici u kojoj se nalazi.</p>
-              <p><a href="kartapica.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Pogledajte Našu kartu pića</a></p>
+              <p><a href="kartapica.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Naša Karta pića</a></p>
             </div>
 
           </div>
@@ -132,8 +132,8 @@
 	          	<span class="subheading">Pogledajte </span>
 	            <h2 class="mb-4">Naš Meni</h2>
 	            <p class="mb-4">Pogledajte naš veliki asortiman hrane koju Vam nudimo, i razna pića koja idu uz to.</p>
-	            <p><a href="pica.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Karta pića</a><span>&nbsp;&nbsp;</span>
-				<a href="jelovnik.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Jelovnik</a></p>
+	            <p><a href="jelovnik.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Jelovnik</a><span>&nbsp;&nbsp;</span>
+				<a href="pica.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Karta pića</a></p>
 	          </div>
     			</div>
     			<div class="col-md-6">
