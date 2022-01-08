@@ -55,7 +55,7 @@
         49 => ["ID" => 49, "name" => "Pomfrit", "price" => 180, "description" => "", "type" => "Dodaci"],
     ];
     $pica = [
-        // 1 => ["ID" => , "name" => "", "price" => , "description" => "", "type" => ""],
+        // 1 => ["ID" => , "name" => "", "price" => , "type" => ""],
         1 => ["ID" => 1, "name" => "Espresso", "price" => 140,  "type" => "Costa Coffee"],
         2 => ["ID" => 2, "name" => "Espresso dopio", "price" => 210 ,  "type" => "Costa Coffee"],
         3 => ["ID" => 3, "name" => "Espresso sa mlekom", "price" => 210,  "type" => "Costa Coffee"],
@@ -114,6 +114,16 @@
         56 => ["ID" => 56, "name" => "Budwieser tamno 0.5l", "price" => 290, "type" => "Točena piva"],
         57 => ["ID" => 57, "name" => "Kronenbourg 0.3l", "price" => 250, "type" => "Točena piva"],
         58 => ["ID" => 58, "name" => "Kronenbourg 0.5l", "price" => 300, "type" => "Točena piva"],
+        59 => ["ID" => 59, "name" => "Guinness", "price" => 500, "type" => "Piva u flašicama"],
+        60 => ["ID" => 60, "name" => "San Miguel", "price" => 340, "type" => "Piva u flašicama"],
+        61 => ["ID" => 61, "name" => "Erdinger", "price" => 300, "type" => "Piva u flašicama"],
+        62 => ["ID" => 62, "name" => "Erdinger tamno", "price" => 350, "type" => "Piva u flašicama"],
+        63 => ["ID" => 63, "name" => "Carslberg", "price" => 260, "type" => "Piva u flašicama"],
+        64 => ["ID" => 64, "name" => "Grimbergen blanche", "price" => 240, "type" => "Piva u flašicama"],
+        65 => ["ID" => 65, "name" => "Grimbergen blonde", "price" => 240, "type" => "Piva u flašicama"],
+        66 => ["ID" => 66, "name" => "Grimbergen ambree", "price" => 260, "type" => "Piva u flašicama"],
+        67 => ["ID" => 67, "name" => "Budwieser tamno", "price" => 270, "type" => "Piva u flašicama"],
+        68 => ["ID" => 68, "name" => "Tuborg", "price" => 240, "type" => "Piva u flašicama"],
 
 
     ];
@@ -171,7 +181,7 @@
             }
         }
     }
-    class Pica extends Jela {
+    class Pica{
 
         function __construct(int $ID, string $name, int $price, string $type) {
             $this->ID = $ID;
@@ -196,13 +206,28 @@
             return $this->type;
         }
 
+        function stampajPica (string $tip_pica) {
+            if ($this->type == $tip_pica) {
+                echo "<div class=\"pricing-entry d-flex ftco-animate\">";
+                echo "<div class=\"desc pl-3\">";
+                echo "<div class=\"d-flex text align-items-center\">";
+                echo "<h3><span>" . $this->name . "</span></h3>";
+                echo "<span class=\"price\">" . $this->price . " rsd</span>";
+                echo "</div>";
+                echo "<input type=\"submit\" style=\"background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer\" value=\"+ Poruci\">";
+                
+                echo "</div>";
+                echo "</div>";
+            }
+        }
+
     }
 
     for ($i = 1; $i <= count($jela); $i++) {
         ${"item_jela_".$i} = new Jela ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["description"],$jela[$i]["type"]);
     }
     for ($i = 1; $i <= count($pica); $i++) {
-        ${"item_jela_".$i} = new Pica ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["type"]);
+        ${"item_pica_".$i} = new Pica ($i,$pica[$i]["name"],$pica[$i]["price"],$pica[$i]["type"]);
     }
 ?>
 
