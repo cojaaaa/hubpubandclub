@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>The Hub | Pub & Club</title>
+  	<title>The Hub | Cart</title>
     <?php include "pocetni-linkovi.php"; ?>
   </head>
   <body>
