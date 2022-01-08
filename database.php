@@ -63,11 +63,11 @@
         5 => ["ID" => 5, "name" => "Cappuccino", "price" => 170,  "type" => "Costa Coffee"],
         6 => ["ID" => 6, "name" => "Double Cappuccino", "price" => 240,  "type" => "Costa Coffee"],
         7 => ["ID" => 7, "name" => "Coffeelatte", "price" => 180,  "type" => "Costa Coffee"],
-        8 => ["ID" => 8, "name" => "Bailey’s coffee", "price" =>220 ,  "type" => "Costa Coffee"],
+        8 => ["ID" => 8, "name" => "Bailey's coffee", "price" =>220 ,  "type" => "Costa Coffee"],
         9 => ["ID" => 9, "name" => "Coffeefredo", "price" => 190,  "type" => "Costa Coffee"],
         10 => ["ID" => 10, "name" => "Nescafe topli", "price" => 160,  "type" => "Nescafe"],
         11 => ["ID" => 11, "name" => "Nescafe hladni", "price" => 160,  "type" => "Nescafe"],
-        12 => ["ID" => 12, "name" => "Bailey’s nescafe", "price" => 220,  "type" => "Nescafe"],
+        12 => ["ID" => 12, "name" => "Bailey's nescafe", "price" => 220,  "type" => "Nescafe"],
         13 => ["ID" => 13, "name" => "Ice coffee", "price" => 220,  "type" => "Nescafe"],
         14 => ["ID" => 14, "name" => "Irish coffee", "price" => 240,  "type" => "Nescafe"],
         15 => ["ID" => 15, "name" => "Topla čokolada crna", "price" => 200,  "type" => "Topla čokolada"],
@@ -205,5 +205,4 @@
         ${"item_jela_".$i} = new Pica ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["type"]);
     }
 ?>
-
 
