@@ -171,15 +171,19 @@
             }
         }
     }
-    class Pica extends Jela {
+    class Pica {
+        private $ID;
+        private $name;
+        private $price;
+        private $type;
 
         function __construct(int $ID, string $name, int $price, string $type) {
             $this->ID = $ID;
             $this->name = $name;
             $this->price = $price;
-            
             $this->type = $type;
         }
+
         function getID() { 
             return $this->ID;
         }
@@ -195,15 +199,18 @@
         function getType() {
             return $this->type;
         }
-
     }
 
+    $array_jela = array();
     for ($i = 1; $i <= count($jela); $i++) {
         ${"item_jela_".$i} = new Jela ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["description"],$jela[$i]["type"]);
+        array_push($array_jela,${"item_jela_".$i});
     }
 
+    $array_pica = array();
     for ($i = 1; $i <= count($pica); $i++) {
-        ${"item_jela_".$i} = new Pica ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["type"]);
+        ${"item_pica_".$i} = new Pica ($i,$pica[$i]["name"],$pica[$i]["price"],$pica[$i]["type"]);
+        array_push($array_pica,${"item_pica_".$i});
     }
 ?>
 
