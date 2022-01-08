@@ -97,14 +97,24 @@
         39 => ["ID" => 39, "name" => "Schweppes bitter lemon", "price" => 170, "description" => "", "type" => "Gazirani sokovi"],
         40 => ["ID" => 40, "name" => "Schweppes tonic water", "price" => 170, "description" => "", "type" => "Gazirani sokovi"],
         41 => ["ID" => 41, "name" => "Schweppes tangerine", "price" => 170, "description" => "", "type" => "Gazirani sokovi"],
-        42 => ["ID" => 42, "name" => "", "price" => 170, "type" => ""],
-        43 => ["ID" => 43, "name" => "", "price" => 170, "type" => ""],
-        44 => ["ID" => 44, "name" => "", "price" => 170, "type" => ""],
-        45 => ["ID" => 45, "name" => "", "price" => 170, "type" => ""],
-        46 => ["ID" => 46, "name" => "", "price" => 170, "type" => ""],
-        47 => ["ID" => 47, "name" => "", "price" => 170, "type" => ""],
-        48 => ["ID" => 48, "name" => "", "price" => 170, "type" => ""],
-        49 => ["ID" => 49, "name" => "", "price" => 170, "type" => ""],
+        42 => ["ID" => 42, "name" => "Next narandža", "price" => 170, "type" => "Negazirani sokovi"],
+        43 => ["ID" => 43, "name" => "Next jabuka", "price" => 170, "type" => "Negazirani sokovi"],
+        44 => ["ID" => 44, "name" => "Next jagoda", "price" => 170, "type" => "Negazirani sokovi"],
+        45 => ["ID" => 45, "name" => "Next breskva", "price" => 170, "type" => "Negazirani sokovi"],
+        46 => ["ID" => 46, "name" => "Next višnja", "price" => 170, "type" => "Negazirani sokovi"],
+        47 => ["ID" => 47, "name" => "Next šumsko voće", "price" => 170, "type" => "Negazirani sokovi"],
+        48 => ["ID" => 48, "name" => "Fuze Tea breskva & hibiskus (stevia)", "price" => 170, "type" => "Negazirani sokovi"],
+        49 => ["ID" => 49, "name" => "Erdinger 0.3l", "price" => 320, "type" => "Točena piva"],
+        50 => ["ID" => 50, "name" => "Erdinger 0.5l", "price" => 390, "type" => "Točena piva"],
+        51 => ["ID" => 51, "name" => "Carslberg 0.3l", "price" => 260, "type" => "Točena piva"],
+        52 => ["ID" => 52, "name" => "Carslberg 0.5l", "price" => 320, "type" => "Točena piva"],
+        53 => ["ID" => 53, "name" => "Budwieser svetlo 0.3l", "price" => 260, "type" => "Točena piva"],
+        54 => ["ID" => 54, "name" => "Budwieser svetlo 0.5l", "price" => 320, "type" => "Točena piva"],
+        55 => ["ID" => 55, "name" => "Budwieser tamno 0.3l", "price" => 240, "type" => "Točena piva"],
+        56 => ["ID" => 56, "name" => "Budwieser tamno 0.5l", "price" => 290, "type" => "Točena piva"],
+        57 => ["ID" => 57, "name" => "Kronenbourg 0.3l", "price" => 250, "type" => "Točena piva"],
+        58 => ["ID" => 58, "name" => "Kronenbourg 0.5l", "price" => 300, "type" => "Točena piva"],
+
 
     ];
     //klase
@@ -161,9 +171,38 @@
             }
         }
     }
+    class Pica extends Jela {
+
+        function __construct(int $ID, string $name, int $price, string $type) {
+            $this->ID = $ID;
+            $this->name = $name;
+            $this->price = $price;
+            
+            $this->type = $type;
+        }
+        function getID() { 
+            return $this->ID;
+        }
+
+        function getName() {
+            return $this->name;
+        }
+
+        function getPrice() {
+            return $this->price;
+        }
+
+        function getType() {
+            return $this->type;
+        }
+
+    }
 
     for ($i = 1; $i <= count($jela); $i++) {
         ${"item_jela_".$i} = new Jela ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["description"],$jela[$i]["type"]);
+    }
+    for ($i = 1; $i <= count($pica); $i++) {
+        ${"item_jela_".$i} = new Pica ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["type"]);
     }
 ?>
 
