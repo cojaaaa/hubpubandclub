@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -133,7 +136,7 @@
 	            <h2 class="mb-4">Naš Meni</h2>
 	            <p class="mb-4">Pogledajte naš veliki asortiman hrane koju Vam nudimo, i razna pića koja idu uz to.</p>
 	            <p><a href="jelovnik.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Jelovnik</a><span>&nbsp;&nbsp;</span>
-				<a href="pica.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Karta pića</a></p>
+				<a href="kartapica.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Karta pića</a></p>
 	          </div>
     			</div>
     			<div class="col-md-6">
@@ -180,7 +183,7 @@
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
     						<p class="price"><span>$5.90</span></p>
-    						<a href="pica.html" class="btn btn-primary btn-outline-primary px-4 py-3" target="_blank">Karta pića</a>
+    						<a href="kartapica.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Karta pića</a>
     					</div>
     				</div>
         	</div>

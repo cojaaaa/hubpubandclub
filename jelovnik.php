@@ -11,9 +11,6 @@ if (isset($_POST["id"]) && $_POST["id"] != "") {
 	array_push($_SESSION["cart"],$id);
 	$status = "";
 }
-var_dump($_SESSION["cart"]);
-
-
 
 ?>
 
