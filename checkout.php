@@ -1,3 +1,10 @@
+<?php 
+session_start();
+
+$total = $_GET["total"];
+$delivery = $_GET["delivery"];
+$discount = $_GET["discount"];
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -118,20 +125,20 @@
 	          			<h3 class="billing-heading mb-4">Cart Total</h3>
 	          			<p class="d-flex">
 		    						<span>Subtotal</span>
-		    						<span>$20.60</span>
+		    						<span><?php echo $total ?> rsd</span>
 		    					</p>
 		    					<p class="d-flex">
 		    						<span>Delivery</span>
-		    						<span>$0.00</span>
+		    						<span><?php echo $delivery ?> rsd</span>
 		    					</p>
 		    					<p class="d-flex">
 		    						<span>Discount</span>
-		    						<span>$3.00</span>
+		    						<span><?php echo $discount ?> rsd</span>
 		    					</p>
 		    					<hr>
 		    					<p class="d-flex total-price">
 		    						<span>Total</span>
-		    						<span>$17.60</span>
+		    						<span><?php echo $total-$discount+$delivery ?> rsd</span>
 		    					</p>
 								</div>
 	          	</div>

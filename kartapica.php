@@ -1,3 +1,18 @@
+<?php 
+session_start();
+
+include_once "database.php";
+
+$status = "";
+if (!isset($_SESSION["cart2"])) $_SESSION["cart2"]=[];
+
+if (isset($_POST["id"]) && $_POST["id"] != "") {
+	$id = $_POST["id"];
+	array_push($_SESSION["cart2"],$id);
+	$status = "";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,7 +42,6 @@
     </section>
 
     
-<?php include 'database.php' ?>
     <section class="ftco-section">
     	<div class="container">
         <div class="row">

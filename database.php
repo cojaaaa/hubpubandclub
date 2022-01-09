@@ -177,7 +177,7 @@
                 }
                 echo "<form action=\"\" method=\"POST\" target=\"\" onSubmit=\"return true\">";
                 echo "<input type=\"hidden\" name=\"id\" value=\"" . $this->ID . "\">";
-                echo "<button type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\">+ Poruči</button>";
+                echo "<button type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #524f4f;cursor:pointer\">+ Poruči</button>";
                 echo "</form>";
                 echo "</div>";
                 echo "</div>";
@@ -221,8 +221,10 @@
                 echo "<h3><span>" . $this->name . "</span></h3>";
                 echo "<span class=\"price\">" . $this->price . " rsd</span>";
                 echo "</div>";
-                echo "<input type=\"submit\" style=\"background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer\" value=\"+ Poruci\">";
-                
+                echo "<form action=\"\" method=\"POST\" target=\"\" onSubmit=\"return true\">";
+                echo "<input type=\"hidden\" name=\"id\" value=\"" . $this->ID . "\">";
+                echo "<button type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #524f4f;cursor:pointer\">+ Poruči</button>";
+                echo "</form>";
                 echo "</div>";
                 echo "</div>";
             }
