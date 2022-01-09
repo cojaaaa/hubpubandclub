@@ -5,7 +5,8 @@
         1 => ["ID" => 1, "name" => "Suhomesnato", "price" => 990, "description" => "Svinjska pršuta, goveđa pečenica, kulen i goveđa pršuta", "type" => "Hladna predjela"],
         2 => ["ID" => 2, "name" => "Sirevi", "price" => 800, "description" => "Dimljeni kaonički, dimljena mozzarella, sir u vinu, hajdučki i gauda", "type" => "Hladna predjela"],
         3 => ["ID" => 3, "name" => "Daska The Hub", "price" => 1950, "description" => "Svinjska pršuta, goveđa pršuta, goveđa pečenica,
-        dimljena mozzarella, gauda, sir u vinu, hajdučki, kulen, dimljeni kaonički i masline", "type" => "Hladna predjela"],
+        dimljena mozzarella, gauda, sir u vinu, hajdučki,
+        kulen, dimljeni kaonički i masline", "type" => "Hladna predjela"],
         4 => ["ID" => 4, "name" => "Brusketi caprese", "price" => 320, "description" => "Gorgonzola namaz, mozzarella, čeri paradajz i pesto", "type" => "Topla predjela"],
         5 => ["ID" => 5, "name" => "Brusketi masline", "price" => 320, "description" => "Gorgonzola namaz, crne i zelene masline i mirođija", "type" => "Topla predjela"],
         6 => ["ID" => 6, "name" => "Brusketi losos", "price" => 320, "description" => "Sirni namaz, dimljeni losos, čeri paradajz i mirođija", "type" => "Topla predjela"],
@@ -170,33 +171,25 @@
                 echo "<h3><span>" . $this->name . "</span></h3>";
                 echo "<span class=\"price\">" . $this->price . " rsd</span>";
                 echo "</div>";
-                if ($this->description != "") {
+                if ($this->description != ""){
                     echo "<div class=\"d-block\">";
                     echo "<p>- " . $this->description . "</p>";
                     echo "</div>";
                 }
-                echo "<form action=\"\" method=\"POST\" target=\"cart_info\">";
-                echo "<input type=\"hidden\" name=\"order\" value=\"" . $this->ID . "\">";
-                echo "<input type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\" value=\"+ Poruči\">";
-                echo "</form>";
                 echo "</div>";
                 echo "</div>";
             }
         }
     }
-    class Pica {
-        private $ID;
-        private $name;
-        private $price;
-        private $type;
+    class Pica{
 
         function __construct(int $ID, string $name, int $price, string $type) {
             $this->ID = $ID;
             $this->name = $name;
             $this->price = $price;
+            
             $this->type = $type;
         }
-
         function getID() { 
             return $this->ID;
         }
@@ -222,7 +215,6 @@
                 echo "<span class=\"price\">" . $this->price . " rsd</span>";
                 echo "</div>";
                 echo "<input type=\"submit\" style=\"background-color:transparent;border:none;color:#c49b63;border-bottom:0.1px solid #c49b63;cursor:pointer\" value=\"+ Poruci\">";
-                
                 echo "</div>";
                 echo "</div>";
             }
@@ -230,15 +222,11 @@
 
     }
 
-    $array_jela = array();
     for ($i = 1; $i <= count($jela); $i++) {
         ${"item_jela_".$i} = new Jela ($i,$jela[$i]["name"],$jela[$i]["price"],$jela[$i]["description"],$jela[$i]["type"]);
-        array_push($array_jela,${"item_jela_".$i});
     }
-
-    $array_pica = array();
     for ($i = 1; $i <= count($pica); $i++) {
         ${"item_pica_".$i} = new Pica ($i,$pica[$i]["name"],$pica[$i]["price"],$pica[$i]["type"]);
-        array_push($array_pica,${"item_pica_".$i});
     }
 ?>
+

@@ -14,7 +14,7 @@
 			  <li class="nav-item"><a href="jelovnik.php" class="nav-link">Jelovnik</a></li>
 			  <li class="nav-item"><a href="kartapica.php" class="nav-link">Karta pića</a></li>
 	          <li class="nav-item"><a href="kontakt.php" class="nav-link">Kontakt</a></li>
-	          <li class="nav-item cart"><a href="cart.html" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
+	          <li class="nav-item cart"><a href="cart.php" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
 	        </ul>
 	      </div>
 		  </div>
