@@ -4,8 +4,8 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About Us</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">O nama</h2>
+              <p>Tragovi prošlosti su nas učvrstili u nameri da otvaranjem kluba učestvujemo u istoriji i dopišemo joj još jedno poglavlje. Ulica generala Tranijea na čijem broju 1 se nalazimo, sedamdesetih godina prošlog veka postala je <a href="index.php#onama" style="color: #c49b63">...</a></p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -16,12 +16,10 @@
           
           <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
              <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Meni</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Cooked</a></li>
-                <li><a href="#" class="py-2 d-block">Deliver</a></li>
-                <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
-                <li><a href="#" class="py-2 d-block">Mixed</a></li>
+                <li><a href="jelovnik.php" class="py-2 d-block">Jelovnik</a></li>
+                <li><a href="kartapica.php" class="py-2 d-block">Karta Pića</a></li>
               </ul>
             </div>
           </div>
@@ -41,7 +39,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>    <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a> </p>
-  			<a href="#pocetak"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+  			<a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>

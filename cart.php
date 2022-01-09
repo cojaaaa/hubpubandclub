@@ -69,7 +69,6 @@
 						        
 						        <td class="product-name">
 						        	<h3>Grilled Ribs Beef</h3>
-						        	<p>Far far away, behind the word mountains, far from the countries</p>
 						        </td>
 						        
 						        <td class="price">$15.70</td>
