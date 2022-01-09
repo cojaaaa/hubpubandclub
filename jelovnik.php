@@ -4,7 +4,8 @@ session_start();
 include_once "database.php";
 
 $status = "";
-// $_SESSION["cart"]=[];
+if (!isset($_SESSION["cart"])) $_SESSION["cart"]=[];
+
 if (isset($_POST["id"]) && $_POST["id"] != "") {
 	$id = $_POST["id"];
 	array_push($_SESSION["cart"],$id);

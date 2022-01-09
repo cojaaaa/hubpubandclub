@@ -175,7 +175,7 @@
                     echo "<p>- " . $this->description . "</p>";
                     echo "</div>";
                 }
-                echo "<form action=\"\" method=\"POST\" target=\"_self\">";
+                echo "<form action=\"\" method=\"POST\" target=\"\" onSubmit=\"return true\">";
                 echo "<input type=\"hidden\" name=\"id\" value=\"" . $this->ID . "\">";
                 echo "<button type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\">+ Poruči</button>";
                 echo "</form>";
