@@ -94,16 +94,16 @@
 			  <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 				  <div class="text">
-					  <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-					  <strong class="text" style="color: #c49b63">0</strong>
-					  <span>Ovde ne znam šta</span>
+					  <div class="icon"><i class="fa fa-cutlery fa-2xx" aria-hidden="true"></i></div>
+					  <strong class="text" style="color: #c49b63">70+</strong>
+					  <span>Raznovrsnih pića i jela</span>
 				  </div>
 				</div>
 			  </div>
 			  <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 				  <div class="text">
-					  <div class="icon"><span class="flaticon-coffee-cup"></span></div>
+					  <div class="icon"><i class="fa fa-check fa-2xx" aria-hidden="true"></i></div>
 					  <strong class="text" style="color:#c49b63">1000+</strong>
 					  <span>Zadovoljnih mušterija</span>
 				  </div>
@@ -112,7 +112,7 @@
 			  <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 				  <div class="text">
-					  <div class="icon"><span class="flaticon-coffee-cup"></span></div>
+					  <div class="icon"><i class="fa fa-user fa-2xx" aria-hidden="true"></i></div>
 					  <strong class="text" style="color: #c49b63">30</strong>
 					  <span>Zaposlenih</span>
 				  </div>

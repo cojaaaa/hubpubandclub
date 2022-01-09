@@ -20,8 +20,8 @@ include_once "database.php";
           <div class="row slider-text justify-content-center align-items-center">
 
             <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Cart</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Cart</span></p>
+            	<h1 class="mb-3 mt-5 bread">Korpa</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Korpa</span></p>
             </div>
 
           </div>
@@ -65,7 +65,7 @@ include_once "database.php";
     		<div class="row justify-content-end">
     			<div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
-    					<h3>Cart Totals</h3>
+    					<h3>Račun</h3>
     					<p class="d-flex">
     						<span>Cena</span>
     						<span>$20.60</span>
@@ -84,7 +84,7 @@ include_once "database.php";
     						<span>$17.60</span>
     					</p>
     				</div>
-    				<p class="text-center"><a href="checkout.php" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+    				<p class="text-center"><a href="checkout.php" class="btn btn-primary py-3 px-4">Plati</a></p>
     			</div>
     		</div>
 			</div>
