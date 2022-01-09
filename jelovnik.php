@@ -1,6 +1,18 @@
-<?php 
+<?php
+session_start();
 
 include_once "database.php";
+
+$status = "";
+// $_SESSION["cart"]=[];
+if (isset($_POST["id"]) && $_POST["id"] != "") {
+	$id = $_POST["id"];
+	array_push($_SESSION["cart"],$id);
+	$status = "";
+}
+var_dump($_SESSION["cart"]);
+
+
 
 ?>
 
@@ -41,7 +53,7 @@ include_once "database.php";
 		</div>
 	</section>
 
-	<iframe name="cart_info" style="display:none;"></iframe>
+	<iframe name="cart_deflect" style="display:none;"></iframe>
 
 	<section class="ftco-section">
 		<div class="container">
@@ -90,7 +102,7 @@ include_once "database.php";
 	</section>
 
 
-	
+
 
 
 	<?php include "footer.php"; ?>

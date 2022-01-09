@@ -175,9 +175,9 @@
                     echo "<p>- " . $this->description . "</p>";
                     echo "</div>";
                 }
-                echo "<form action=\"\" method=\"POST\" target=\"cart_info\">";
-                echo "<input type=\"hidden\" name=\"order\" value=\"" . $this->ID . "\">";
-                echo "<input type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\" value=\"+ Poruči\">";
+                echo "<form action=\"\" method=\"POST\" target=\"_self\">";
+                echo "<input type=\"hidden\" name=\"id\" value=\"" . $this->ID . "\">";
+                echo "<button type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\">+ Poruči</button>";
                 echo "</form>";
                 echo "</div>";
                 echo "</div>";
@@ -241,4 +241,5 @@
         ${"item_pica_".$i} = new Pica ($i,$pica[$i]["name"],$pica[$i]["price"],$pica[$i]["type"]);
         array_push($array_pica,${"item_pica_".$i});
     }
+    
 ?>
