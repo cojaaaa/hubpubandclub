@@ -48,7 +48,7 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 ftco-animate">
-					<div class="cart-list">
+					<div>
 						<table class="table">
 							<thead class="thead-primary">
 								<tr class="text-center">
