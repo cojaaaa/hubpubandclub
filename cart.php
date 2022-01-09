@@ -18,33 +18,6 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-  <head>
-  	<title>The Hub | Cart</title>
-    <?php include "pocetni-linkovi.php"; ?>
-  </head>
-  <body>
-  <?php include "nav.php" ?>
-
-    <section class="home-slider owl-carousel">
-
-      <div class="slider-item" style="background-image: url(images/cart.jpg);" data-stellar-background-ratio="0.5">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text justify-content-center align-items-center">
-
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Korpa</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Korpa</span></p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		<section class="ftco-section ftco-cart">
-=======
 
 <head>
 	<title>The Hub | Cart</title>
@@ -58,13 +31,12 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 
 		<div class="slider-item" style="background-image: url(images/cart.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
->>>>>>> cart
 			<div class="container">
 				<div class="row slider-text justify-content-center align-items-center">
 
 					<div class="col-md-7 col-sm-12 text-center ftco-animate">
-						<h1 class="mb-3 mt-5 bread">Cart</h1>
-						<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Cart</span></p>
+						<h1 class="mb-3 mt-5 bread">Korpa</h1>
+						<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Početna</a></span> <span>Korpa</span></p>
 					</div>
 
 				</div>
@@ -87,9 +59,9 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 							</thead>
 							<tbody>
 								<?php
-								$total=0;
-								$delivery=200;
-								$discount=50;
+								$total = 0;
+								$delivery = 200;
+								$discount = 50;
 								if (!empty($_SESSION["cart"])) {
 									$array_items = $_SESSION["cart"];
 									foreach ($array_items as $index => $item) {
@@ -101,7 +73,7 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 										echo "</tr>";
 										$total += $array_jela[$item - 1]->getPrice();
 									}
-								} 
+								}
 								if (!empty($_SESSION["cart2"])) {
 									$array_items = $_SESSION["cart2"];
 									foreach ($array_items as $index => $item) {
@@ -112,7 +84,7 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 										echo "</tr>";
 										$total += $array_pica[$item - 1]->getPrice();
 									}
-								} 
+								}
 								if (empty($_SESSION["cart"]) && empty($_SESSION["cart2"])) {
 									echo "<tr>";
 									echo "<td></td>";
@@ -122,8 +94,8 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 								}
 
 								if ($total == 0) {
-									$discount=0;
-									$delivery=0;
+									$discount = 0;
+									$delivery = 0;
 								}
 
 								?>
@@ -153,7 +125,7 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 						<hr>
 						<p class="d-flex total-price">
 							<span>Ukupno</span>
-							<span><?php echo $total-$delivery+$discount ?> rsd</span>
+							<span><?php echo $total - $delivery + $discount ?> rsd</span>
 						</p>
 					</div>
 					<p class="text-center"><a href="checkout.php?total=<?php echo $total ?>&delivery=<?php echo $delivery ?>&discount=<?php echo $discount ?>" class="btn btn-primary py-3 px-4">Poruči!</a></p>
