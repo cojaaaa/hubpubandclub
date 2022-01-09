@@ -5,8 +5,7 @@
         1 => ["ID" => 1, "name" => "Suhomesnato", "price" => 990, "description" => "Svinjska pršuta, goveđa pečenica, kulen i goveđa pršuta", "type" => "Hladna predjela"],
         2 => ["ID" => 2, "name" => "Sirevi", "price" => 800, "description" => "Dimljeni kaonički, dimljena mozzarella, sir u vinu, hajdučki i gauda", "type" => "Hladna predjela"],
         3 => ["ID" => 3, "name" => "Daska The Hub", "price" => 1950, "description" => "Svinjska pršuta, goveđa pršuta, goveđa pečenica,
-        dimljena mozzarella, gauda, sir u vinu, hajdučki,
-        kulen, dimljeni kaonički i masline", "type" => "Hladna predjela"],
+        dimljena mozzarella, gauda, sir u vinu, hajdučki, kulen, dimljeni kaonički i masline", "type" => "Hladna predjela"],
         4 => ["ID" => 4, "name" => "Brusketi caprese", "price" => 320, "description" => "Gorgonzola namaz, mozzarella, čeri paradajz i pesto", "type" => "Topla predjela"],
         5 => ["ID" => 5, "name" => "Brusketi masline", "price" => 320, "description" => "Gorgonzola namaz, crne i zelene masline i mirođija", "type" => "Topla predjela"],
         6 => ["ID" => 6, "name" => "Brusketi losos", "price" => 320, "description" => "Sirni namaz, dimljeni losos, čeri paradajz i mirođija", "type" => "Topla predjela"],
@@ -176,6 +175,10 @@
                     echo "<p>- " . $this->description . "</p>";
                     echo "</div>";
                 }
+                echo "<form action=\"\" method=\"POST\" target=\"cart_info\">";
+                echo "<input type=\"hidden\" name=\"order\" value=\"" . $this->ID . "\">";
+                echo "<input type=\"submit\" style=\"float:right;background-color:transparent;border:none;color:#c49b63;border:0.1px solid #524f4f;cursor:pointer\" value=\"+ Poruči\">";
+                echo "</form>";
                 echo "</div>";
                 echo "</div>";
             }

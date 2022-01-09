@@ -1,193 +1,96 @@
+<?php 
+
+include_once "database.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>The Hub | Pub & Club</title>
 
-  
-  <?php include "pocetni-linkovi.php";?>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>The Hub | Pub & Club</title>
 
 
-  </head>
-  <body>
+	<?php include "pocetni-linkovi.php"; ?>
 
 
-  <?php include "nav.php" ?>
+</head>
+
+<body>
 
 
-    <section class="home-slider owl-carousel">
-
-      <div class="slider-item" style="background-image: url(images/meni.jpg);" data-stellar-background-ratio="0.5">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text justify-content-center align-items-center">
-
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Meni</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Početna Stranica</a></span> <span>Meni</span></p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
+	<?php include "nav.php" ?>
 
 
-	<?php include "database.php" ?>
+	<section class="home-slider owl-carousel">
 
+		<div class="slider-item" style="background-image: url(images/meni.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row slider-text justify-content-center align-items-center">
 
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Hladna predjela - <span style="font-size: 15px;color: #524f4f;">daska</span> </h3>
-					<!-- <div class="pricing-entry d-flex ftco-animate">
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Suhomesnato</span></h3>
-	        				<span class="price">990 rsd</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>- Svinjska pršuta, goveđa pečenica, kulen i goveđa pršuta</p>
-	        			</div>
-						<span style="float:right;border-bottom:1px solid #c49b63;font-size:14px"><a href="cart.html">+ Dodaj u korpu</a></span>
-        			</div>
-        		</div> -->
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Hladna predjela");
-					}
-					?>
-
-					<h3 class="mb-5 heading-pricing ftco-animate">Topla predjela</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Topla predjela");
-					}
-					?>
-
-				</div>
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Jela po porudzbini</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Jela po porudzbini");
-					}
-					?>
-
-				</div>
-
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Risotto</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Risotto");
-					}
-					?>
-
-					<h3 class="mb-5 heading-pricing ftco-animate">Pizza</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Pizza");
-					}
-					?>
-					<h3 class="mb-5 heading-pricing ftco-animate">Ribe i morski plodovi</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Ribe i morski plodovi");
-					}
-					?>
-
-				</div>
-
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Burrito</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Burrito");
-					}
-					?>
-					<h3 class="mb-5 heading-pricing ftco-animate">Pasta - <span style="font-size: 15px;color: #524f4f;">la Molisana</span></h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Pasta");
-					}
-					?>
-
-				</div>
-
-
-
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Obrok salate</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Obrok salate");
-					}
-					?>
-
-				</div>
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Burgeri</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Burgeri");
-					}
-					?>
-
-				</div>
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Dodaci</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Dodaci");
-					}
-					?>
-
-				</div>
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Healthy food</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Healthy food");
-					}
-					?>
-
-					<h3 class="mb-5 heading-pricing ftco-animate">Slana palačinka</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Slana palačinka");
-					}
-					?>
-
-				</div>
-
-				<div class="col-md-6 mb-5 pb-3">
-					<h3 class="mb-5 heading-pricing ftco-animate">Homemade sweets</h3>
-
-					<?php
-					for ($i = 1; $i <= count($jela); $i++) {
-						${"item_jela_" . $i}->stampajJela("Homemade sweets");
-					}
-					?>
+					<div class="col-md-7 col-sm-12 text-center ftco-animate">
+						<h1 class="mb-3 mt-5 bread">Meni</h1>
+						<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Početna Stranica</a></span> <span>Meni</span></p>
+					</div>
 
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<iframe name="cart_info" style="display:none;"></iframe>
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row">
+				<?php
+				//redsoled stampanja za div-kartice(ima ih 9) : koje tipove jela svaka od kartica sadrzi 
+				$print_divs_jela = [
+					"div1" => ["Hladna predjela", "Topla predjela"],
+					"div2" => "Jela po porudzbini",
+					"div3" => ["Risotto", "Pizza", "Ribe i morski plodovi"],
+					"div4" => ["Burrito", "Pasta"],
+					"div5" => "Obrok salate",
+					"div6" => "Burgeri",
+					"div7" => "Dodaci",
+					"div8" => ["Healthy food", "Slana palačinka"],
+					"div9" => "Homemade sweets",
+				];
+
+				$daska = "<span style=\"font-size: 15px;color: #524f4f;\">daska</span>";
+				$la_molisana = "<span style=\"font-size: 15px;color: #524f4f;\">la Molisana</span>";
+
+				foreach ($print_divs_jela as $tip_jela) {
+					echo "<div class=\"col-md-6 mb-5 pb-3\">";
+					if (gettype($tip_jela) == "array") {
+						foreach ($tip_jela as $sub_tip_jela) {
+							echo "<h3 class=\"mb-5 heading-pricing ftco-animate\">";
+							echo $sub_tip_jela;
+							if ($sub_tip_jela == "Hladna predjela") echo " - $daska";
+							if ($sub_tip_jela == "Pasta") echo " - $la_molisana";
+							echo "</h3>";
+							foreach ($array_jela as $jelo) {
+								$jelo->stampajJela($sub_tip_jela);
+							}
+						}
+					} else {
+						echo "<h3 class=\"mb-5 heading-pricing ftco-animate\">$tip_jela</h3>";
+						foreach ($array_jela as $jelo) {
+							$jelo->stampajJela($tip_jela);
+						}
+					}
+					echo "</div>";
+				}
+				?>
+			</div>
+		</div>
+	</section>
+
+
+	
 
 
 	<?php include "footer.php"; ?>
