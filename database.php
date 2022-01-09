@@ -54,7 +54,7 @@
         49 => ["ID" => 49, "name" => "Pomfrit", "price" => 180, "description" => "", "type" => "Dodaci"],
     ];
     $pica = [
-        // 1 => ["ID" => , "name" => "", "price" => , "type" => ""],
+        
         1 => ["ID" => 1, "name" => "Espresso", "price" => 140,  "type" => "Costa Coffee"],
         2 => ["ID" => 2, "name" => "Espresso dopio", "price" => 210 ,  "type" => "Costa Coffee"],
         3 => ["ID" => 3, "name" => "Espresso sa mlekom", "price" => 210,  "type" => "Costa Coffee"],
