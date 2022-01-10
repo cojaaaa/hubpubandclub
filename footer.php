@@ -38,7 +38,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Ovaj projekat su radile legende <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a>, a nemoj da vam palo na pamet da mi uzmete ideju, sakrio sam copyright ;) </p>
+            <p>Ovaj projekat su radile legende <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a>, a nemoj da vam palo na pamet da nam uzmete ideju, sakrio sam copyright ;) </p>
   			<a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
           </div>
         </div>
