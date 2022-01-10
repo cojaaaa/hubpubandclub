@@ -356,7 +356,7 @@ include 'database.php';
 		              			<div class="menu-wrap">
 								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/lazanja.jpg);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Hot Cake Honey</a></h3>
+		              					<h3><a href="#">Lazanja</a></h3>
 		              					<p>Mleveno juneće meso, pelat, gauda, beli, crni luk, biber, crveno vino i origano</p>
 		              					<p class="price"><span>790 rsd</span></p>
 		              					<p><a href="jelovnik.html" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
