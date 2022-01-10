@@ -14,6 +14,14 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 	unset($_SESSION["cart2"][$rem_pica]);
 	$status = "";
 }
+
+if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
+	unset($_SESSION["cart"]);
+	unset($_SESSION["cart2"]);
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -106,6 +114,10 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 					</div>
 				</div>
 			</div>
+			<form action="cart.php" method="post">
+				<input type="hidden" name="remove_all" value="true" />
+				<input type="submit" value="Ukloni sve iz korpe" class="btn btn-primary py-3 px-4" style="margin-left:42%"/>
+			</form>
 			<div class="row justify-content-end">
 				<div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
 					<div class="cart-total mb-3">
@@ -125,7 +137,7 @@ if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
 						<hr>
 						<p class="d-flex total-price">
 							<span>Ukupno</span>
-							<span><?php echo $total - $delivery + $discount ?> rsd</span>
+							<span><?php echo $total + $delivery - $discount ?> rsd</span>
 						</p>
 					</div>
 					<p class="text-center"><a href="checkout.php?total=<?php echo $total ?>&delivery=<?php echo $delivery ?>&discount=<?php echo $discount ?>" class="btn btn-primary py-3 px-4">Poruči!</a></p>
