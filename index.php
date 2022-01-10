@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include 'database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -98,7 +99,7 @@ session_start();
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><i class="fa fa-cutlery fa-2xx" aria-hidden="true"></i></div>
-					  <strong class="text" style="color: #c49b63">70+</strong>
+					  <strong class="text" style="color: #c49b63"><?php echo count($pica) + count($jela);  ?></strong>
 					  <span>Raznovrsnih pića i jela</span>
 				  </div>
 				</div>
@@ -107,7 +108,7 @@ session_start();
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><i class="fa fa-check fa-2xx" aria-hidden="true"></i></div>
-					  <strong class="text" style="color:#c49b63">1000+</strong>
+					  <strong class="text" style="color:#c49b63">5000+</strong>
 					  <span>Zadovoljnih mušterija</span>
 				  </div>
 				</div>
@@ -116,7 +117,7 @@ session_start();
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><i class="fa fa-user fa-2xx" aria-hidden="true"></i></div>
-					  <strong class="text" style="color: #c49b63">30</strong>
+					  <strong class="text" style="color: #c49b63">24</strong>
 					  <span>Zaposlenih</span>
 				  </div>
 				</div>
@@ -167,33 +168,33 @@ session_start();
         <div class="row">
         	<div class="col-md-4">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(images/menu-1.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(images/costa.jpg);"></a>
     					<div class="text text-center pt-4">
-    						<h3><a href="#">Coffee Capuccino</a></h3>
-    						<p>A small river named Duden flows by their place and supplies</p>
-    						<p class="price"><span>$5.90</span></p>
+    						<h3>Espresso</h3>
+    						
+    						<p class="price"><span style="color:#c49b63">140 rsd</span></p>
     						
     					</div>
     				</div>
         	</div>
         	<div class="col-md-4">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(images/menu-2.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(images/costa-coffee.jpg);"></a>
     					<div class="text text-center pt-4">
-    						<h3><a href="#">Coffee Capuccino</a></h3>
-    						<p>A small river named Duden flows by their place and supplies</p>
-    						<p class="price"><span>$5.90</span></p>
+    						<h3><a href="#">Capuccino</a></h3>
+    						
+    						<p class="price"><span style="color:#c49b63">170 rsd</span></p>
     						<a href="kartapica.php" class="btn btn-primary btn-outline-primary px-4 py-3" target="_self">Karta pića</a>
     					</div>
     				</div>
         	</div>
         	<div class="col-md-4">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(images/menu-3.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(images/costa2.jpg);"></a>
     					<div class="text text-center pt-4">
-    						<h3><a href="#">Coffee Capuccino</a></h3>
-    						<p>A small river named Duden flows by their place and supplies</p>
-    						<p class="price"><span>$5.90</span></p>
+    						<h3><a href="#">Coffeelatte</a></h3>
+    						
+    						<p class="price"><span style="color:#c49b63">180 rsd</span></p>
     					</div>
     				</div>
         	</div>
@@ -268,32 +269,32 @@ session_start();
 		              	<div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/bez-pozadine.png);"></a>
+		              				<a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/brusketi.jpg);"></a>
 		              				<div class="text">
-		              					<h3>Grilled Beef</h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3>Brusketi caprese</h3>
+		              					<p>Gorgonzola namaz, mozzarella, čeri paradajz i pesto</p>
+		              					<p class="price"><span>320 rsd</span></p>
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-2.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/brusketi2.jfif);"></a>
 		              				<div class="text">
-		              					<h3><a href="">Grilled Beef</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3>Brusketi masline</h3>
+		              					<p>Gorgonzola namaz, crne i zelene masline i mirođija</p>
+		              					<p class="price"><span>320 rsd</span></p>
 		              					<p><a href="jelovnik.php" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-3.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/brusketi3.jpg);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Grilled Beef</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3>Brusketi losos</h3>
+		              					<p>Sirni namaz, dimljeni losos, čeri paradajz i mirođija</p>
+		              					<p class="price"><span>320 rsd</span></p>
 		              				</div>
 		              			</div>
 		              		</div>
@@ -304,33 +305,33 @@ session_start();
 		                <div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/daska2.jpg);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Lemonade Juice</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3>Suhomesnato</h3>
+		              					<p>Svinjska pršuta, goveđa pečenica, kulen i goveđa pršuta</p>
+		              					<p class="price"><span>990 rsd</span></p>
 		              					
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/daska.jpg);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Pineapple Juice</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3>Daska The Hub</h3>
+		              					<p>Svinjska pršuta, goveđa pršuta, goveđa pečenica, dimljena mozzarella, gauda, sir u vinu, hajdučki, kulen, dimljeni kaonički i masline</p>
+		              					<p class="price"><span>1950 rsd</span></p>
 		              					<p><a href="jelovnik.html" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/sirevi.jpg);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Soda Drinks</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3><a href="#">Sirevi</a></h3>
+		              					<p>Dimljeni kaonički, dimljena mozzarella, sir u vinu, hajdučki i gauda</p>
+		              					<p class="price"><span>800 rsd</span></p>
 		              					
 		              				</div>
 		              			</div>
@@ -342,34 +343,34 @@ session_start();
 		                <div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-1.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/biftek.png);"></a>
 		              				<div class="text">
-		              					<h3><a href="#">Hot Cake Honey</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<h3><a href="#">Obsession (biftek)</a></h3>
+		              					<p>Biftek, krompir <strong style="color:#c49b63">“a la Chef”</strong>, mlada boranija, povrće i gorgonzola</p>
+		              					<p class="price"><span>1500 rsd</span></p>
 		              					
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-2.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/lazanja.jpg);"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Hot Cake Honey</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
+		              					<p>Mleveno juneće meso, pelat, gauda, beli, crni luk, biber, crveno vino i origano</p>
+		              					<p class="price"><span>790 rsd</span></p>
 		              					<p><a href="jelovnik.html" class="btn btn-primary btn-outline-nov">Ceo jelovnik</a></p>
 		              				</div>
 		              			</div>
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-3.jpg);"></a>
+								  <a href="jelovnik.html" class="menu-img img mb-4" style="background-image: url(images/belisos.jfif);"></a>	
 		              				<div class="text">
-		              					<h3><a href="#">Hot Cake Honey</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					>
+		              					<h3><a href="#">Piletina u belom sosu</a></h3>
+		              					<p>Pileći file, dimljeni kaonički, gauda, pavlaka, parmezan i pomfrit</p>
+		              					<p class="price"><span>550 rsd</span></p>
+		              					
 		              				</div>
 		              			</div>
 		              		</div>

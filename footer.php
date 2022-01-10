@@ -7,9 +7,9 @@
               <h2 class="ftco-heading-2">O nama</h2>
               <p>Tragovi prošlosti su nas učvrstili u nameri da otvaranjem kluba učestvujemo u istoriji i dopišemo joj još jedno poglavlje. Ulica generala Tranijea na čijem broju 1 se nalazimo, sedamdesetih godina prošlog veka postala je <a href="index.php#onama" style="color: #c49b63">...</a></p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/primesoftwarenis"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/thehubpubclub"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/the_hub_pubandclub/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -38,9 +38,11 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>    <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a> </p>
+            <p>Ovaj projekat su radile legende <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Jovan Jovanovic</a> & <a href="https://www.linkedin.com/in/jovan-jovanovic-5808151a2/" style="color:#c49b63">Ivan Vaskovic</a>, a nemoj da vam palo na pamet da mi uzmete ideju, sakrio sam copyright ;) </p>
   			<a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
+      <span style="visibility:hidden">Copyright &copy; <script>document.write(new Date().getFullYear());</script></span>    
     </footer>
+    
