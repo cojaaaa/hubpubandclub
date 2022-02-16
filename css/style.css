@@ -449,6 +449,20 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
+.poruci{
+  float:right;
+  background-color:transparent;
+  border:none;color:#c49b63;
+  border-bottom:0.1px solid #524f4f;
+  cursor:pointer;
+  transition:0.5s ease-out;
+}
+.poruci:hover{
+  background-color:rgba(196	,155	,99,0.3);
+  color:rgb(216, 216, 216);
+  transition:0.5s ease-in;
+}
+
 
 .container {
   width: 100%;

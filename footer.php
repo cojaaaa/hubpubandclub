@@ -29,7 +29,7 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">2 Generala Tranijea 1, Niš</span></li>
-	                <li><a href="href=tel:+381183501336" style="margin-top:5px"><span class="icon icon-phone"></span><span class="text">+381 18 3501336</span></a></li>
+	                <li><a href="tel:+381183501336" style="margin-top:5px"><span class="icon icon-phone"></span><span class="text">+381 18 3501336</span></a></li>
 	                <li><a href="mailto:info@thehub.rs"><span class="icon icon-envelope"></span><span class="text">info@thehub.rs</span></a></li>
 	              </ul>
 	            </div>

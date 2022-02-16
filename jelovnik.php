@@ -34,9 +34,9 @@ if (isset($_POST["id"]) && $_POST["id"] != "") {
 	<?php include "nav.php" ?>
 
 
-	<section class="home-slider owl-carousel">
+	<section class="home-slider owl-carousel" style="height:550px;">
 
-		<div class="slider-item" style="background-image: url(images/meni.jpg);" data-stellar-background-ratio="0.5">
+		<div class="slider-item" style="background-image: url(images/meni.jpg);height:600px;" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row slider-text justify-content-center align-items-center">
@@ -54,8 +54,8 @@ if (isset($_POST["id"]) && $_POST["id"] != "") {
 	<iframe name="cart_deflect" style="display:none;"></iframe>
 
 	<section class="ftco-section">
-		<div class="container">
-			<div class="row">
+		<div class="container" >
+			<div class="row" >
 				<?php
 				//redsoled stampanja za div-kartice(ima ih 9) : koje tipove jela svaka od kartica sadrzi 
 				$print_divs_jela = [
