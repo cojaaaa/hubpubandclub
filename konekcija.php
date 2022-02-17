@@ -33,4 +33,4 @@ class KreiranjeTabela{
             )");     
     }
 }
-$tabele = new KreiranjeTabela;        // 1 => ["ID" => , "name" => "", "price" => , "description" => "", "type" => ""],
+$tabele = new KreiranjeTabela;
