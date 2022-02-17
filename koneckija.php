@@ -18,7 +18,7 @@ class KreiranjeTabela{
                 price int(10) not null,
                 description text null,
                 type text not null,
-                jelo boolean not null,
+                item_type boolean not null,
                 PRIMARY KEY(ID)
             
             )");
