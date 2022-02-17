@@ -30,6 +30,17 @@ class KreiranjeTabela{
                 admin boolean not null,
                 PRIMARY KEY(ID)
             
+            )");   
+        $this->connection->query("CREATE TABLE IF NOT EXISTS rezervacije(
+            ID int AUTO_INCREMENT,
+                ime text not null,
+                prezime text not null,
+                datum DATE not null,
+                vreme text not null,
+                telefon text not null,
+                napomena text null,
+                PRIMARY KEY(ID)
+            
             )");     
     }
 }
