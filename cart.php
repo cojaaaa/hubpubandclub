@@ -1,23 +1,15 @@
 <?php
 session_start();
-include_once "database.php";
+require_once ('./initdb.php');
 
 $status = "";
-if (isset($_GET["remove_jela"]) && $_GET["remove_jela"] != "") {
-	$rem_jela = $_GET["remove_jela"];
-	unset($_SESSION["cart"][$rem_jela]);
-	$status = "";
-}
-$status = "";
-if (isset($_GET["remove_pica"]) && $_GET["remove_pica"] != "") {
-	$rem_pica = $_GET["remove_pica"];
-	unset($_SESSION["cart2"][$rem_pica]);
+if (isset($_GET["remove_item"]) && $_GET["remove_item"] != "") {
+	unset($_SESSION["cart"][$_GET["remove_item"]]);
 	$status = "";
 }
 
 if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
 	unset($_SESSION["cart"]);
-	unset($_SESSION["cart2"]);
 }
 
 
@@ -35,14 +27,14 @@ if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
 <body>
 	<?php include "nav.php" ?>
 
-	<section class="home-slider owl-carousel">
+	<section class="home-slider owl-carousel" style="height:450px;">
 
-		<div class="slider-item" style="background-image: url(images/cart.jpg);" data-stellar-background-ratio="0.5">
+		<div class="slider-item" style="background-image: url(images/cart.jpg);height:500px;" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row slider-text justify-content-center align-items-center">
 
-					<div class="col-md-7 col-sm-12 text-center ftco-animate">
+					<div class="col-md-7 col-sm-12 text-center ftco-animate" style="margin-top:-200px;">
 						<h1 class="mb-3 mt-5 bread">Korpa</h1>
 						<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Početna</a></span> <span>Korpa</span></p>
 					</div>
@@ -67,33 +59,29 @@ if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
 							</thead>
 							<tbody>
 								<?php
+
 								$total = 0;
 								$delivery = 200;
 								$discount = 50;
+
 								if (!empty($_SESSION["cart"])) {
-									$array_items = $_SESSION["cart"];
-									foreach ($array_items as $index => $item) {
+									$cart = $_SESSION["cart"];
+									foreach ($cart as $index => $item) {
 										echo "<tr class=\"text-center\">";
-										echo "<td class=\"product-remove\"><a href=\"./cart.php?remove_jela=" . $index . "\"><span class=\"icon-close\"></span></a></td>";
-										echo "<td style=\"width:90%;\" class=\"product-name\"><h3>" . $array_jela[$item - 1]->getName() . "</h3>";
-										echo "<p>" . $array_jela[$item - 1]->getDescription() . "</p></td>";
-										echo "<td style=\"width:10%;\" class=\"price\">" . $array_jela[$item - 1]->getPrice() . " rsd</td>";
+										echo "<td class=\"product-remove\"><a href=\"./cart.php?remove_item=" . $index . "\"><span class=\"icon-close\"></span></a></td>";
+										echo "<td style=\"width:90%;\" class=\"product-name\"><h3>" . $menu[$item-1]['name'] . "</h3>";
+										if ($menu[$item-1]['description'] != '') {
+											echo "<p>" . $menu[$item-1]['description'] . "</p></td>";
+										} else {
+											echo "</td>";
+										}
+										echo "<td style=\"width:10%;\" class=\"price\">" . $menu[$item-1]['price'] . " rsd</td>";
 										echo "</tr>";
-										$total += $array_jela[$item - 1]->getPrice();
+										$total += (int)$menu[$item-1]['price'];
 									}
 								}
-								if (!empty($_SESSION["cart2"])) {
-									$array_items = $_SESSION["cart2"];
-									foreach ($array_items as $index => $item) {
-										echo "<tr class=\"text-center\">";
-										echo "<td class=\"product-remove\"><a href=\"./cart.php?remove_pica=" . $index . "\"><span class=\"icon-close\"></span></a></td>";
-										echo "<td style=\"width:90%;\" class=\"product-name\"><h3>" . $array_pica[$item - 1]->getName() . "</h3></td>";
-										echo "<td style=\"width:10%;\" class=\"price\">" . $array_pica[$item - 1]->getPrice() . " rsd</td>";
-										echo "</tr>";
-										$total += $array_pica[$item - 1]->getPrice();
-									}
-								}
-								if (empty($_SESSION["cart"]) && empty($_SESSION["cart2"])) {
+								
+								if (empty($_SESSION["cart"])) {
 									echo "<tr>";
 									echo "<td></td>";
 									echo "<td style=\"width:90%;\" class=\"product-name\"><p>Nemate nista u korpi...</p></td>";
@@ -116,7 +104,7 @@ if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
 			</div>
 			<form action="cart.php" method="post">
 				<input type="hidden" name="remove_all" value="true" />
-				<input type="submit" value="Ukloni sve iz korpe" class="btn btn-primary py-3 px-4" style="margin-left:42%"/>
+				<input type="submit" value="Ukloni sve iz korpe" class="btn btn-primary py-2 px-4"/>
 			</form>
 			<div class="row justify-content-end">
 				<div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
@@ -152,7 +140,6 @@ if(isset($_POST['remove_all']) && $_POST['remove_all'] != ""){
 
 
 
-	<!-- loader -->
 	<?php include "skripte.php"; ?>
 
 

@@ -1,10 +1,8 @@
 <?php
 $cart_count = 0;
 if (!empty($_SESSION["cart"])) {
-	$cart_count = count(array_keys($_SESSION["cart"]));
-}
-if (!empty($_SESSION["cart2"])) {
-	$cart_count += count(array_keys($_SESSION["cart2"]));
+	$cart_count = count($_SESSION["cart"]);
+	var_dump($cart_count);
 }
 ?>
 
@@ -25,10 +23,11 @@ if (!empty($_SESSION["cart2"])) {
 				<li class="nav-item"><a href="kartapica.php" class="nav-link">Karta pića</a></li>
 				<li class="nav-item"><a href="kontakt.php" class="nav-link">Kontakt</a></li>
 				<li class="nav-item cart"><a href="cart.php" class="nav-link"><span class="icon icon-shopping_cart"></span>
+				<span id="cart_count_span" class="bag d-flex justify-content-center align-items-center" style="visibility: hidden;"><small id='cart_count'><?= $cart_count ?></small></span>
 				<?php 
-				if ($cart_count!=0) {
-				echo "<span class=\"bag d-flex justify-content-center align-items-center\"><small> $cart_count </small></span>";
-				}
+				// if ($cart_count!=0) {
+				// echo "<span class=\"bag d-flex justify-content-center align-items-center\"><small id='cart_count'> $cart_count </small></span>";
+				// }
 				?>
 				</a>
 				</li>
@@ -36,3 +35,11 @@ if (!empty($_SESSION["cart2"])) {
 		</div>
 	</div>
 </nav>
+
+<script>
+	let cart_count_span = document.getElementById('cart_count_span');
+	let cart_count = document.getElementById('cart_count').innerHTML;
+	if (cart_count != 0) {
+		cart_count_span.style.visibility = 'visible';
+	}
+</script>
