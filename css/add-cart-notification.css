@@ -1,0 +1,27 @@
+.notify {
+  position: absolute;
+  margin-left: 40%;
+  bottom: 0px;
+  width: 20%;
+  height: 0;
+  box-sizing: border-box !important;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: height 0.5s;
+}
+
+#notifyType:before {
+  display: block;
+  margin-top: 15px;
+}
+
+.active {
+  height: 50px;
+}
+
+.success:before {
+  content: "Dodato u korpu!" !important;
+}

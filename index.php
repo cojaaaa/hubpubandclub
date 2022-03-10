@@ -1,6 +1,10 @@
 <?php 
 session_start();
-include 'database.php';
+require_once ('./initdb.php');
+require_once ('./functions.php');
+
+setCustomerID();
+// session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -99,7 +103,7 @@ include 'database.php';
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><i class="fa fa-cutlery fa-2xx" aria-hidden="true"></i></div>
-					  <strong class="text" style="color: #c49b63"><?php echo count($pica) + count($jela);  ?></strong>
+					  <strong class="text" style="color: #c49b63"><?php echo count($menu);  ?></strong>
 					  <span>Raznovrsnih pića i jela</span>
 				  </div>
 				</div>

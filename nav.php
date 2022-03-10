@@ -2,7 +2,7 @@
 $cart_count = 0;
 if (!empty($_SESSION["cart"])) {
 	$cart_count = count($_SESSION["cart"]);
-	var_dump($cart_count);
+	// var_dump($cart_count);
 }
 ?>
 

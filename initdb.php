@@ -41,6 +41,66 @@
             }
             return $result;
         }
+
+        function setCart($customerID, $cart_items_ids) {
+            $cart_items = json_encode($cart_items_ids, JSON_FORCE_OBJECT);
+
+            $prepared = $this->conn->prepare("SELECT * FROM `cart` WHERE `customerID` = ?");
+            $prepared->bind_param("s", $customerID);
+            $prepared->execute();
+            $rez = $prepared->get_result();
+
+            if ($rez->num_rows == 1) {
+                $prepared = $this->conn->prepare("UPDATE `cart` SET `cart_items_ids`= ? WHERE `customerID` = ?");
+                $prepared->bind_param("ss", $cart_items, $customerID);
+                $prepared->execute();
+            } else {
+                $prepared = $this->conn->prepare("INSERT INTO `cart`(`customerID`, `cart_items_ids`) VALUES (?,?)");
+                $prepared->bind_param("ss", $customerID, $cart_items);
+                $prepared->execute();
+            }
+            return 1;
+        }
+
+        function getDelivery() {
+            $query = $this->conn->query("SELECT * FROM `cart_settings` WHERE `id` = 1");
+            $res = $query->fetch_assoc();
+            return $res['delivery'];
+        }
+
+        function getDiscount() {
+            $query = $this->conn->query("SELECT * FROM `cart_settings` WHERE `id` = 1");
+            $rez = $query->fetch_assoc();
+            return $rez['discount'];
+        }
+
+        function getCart($customerID) {
+            $prepared = $this->conn->prepare("SELECT * FROM `cart` WHERE `customerID` = ?");
+            $prepared->bind_param("s", $customerID);
+            $prepared->execute();
+            $res = $prepared->get_result();
+
+            if ($res->num_rows == 1) {
+                $row = $res->fetch_assoc();
+                $cart_items = json_decode($row['cart_items_ids'], JSON_OBJECT_AS_ARRAY);
+                return $cart_items;
+            }
+            return 0;
+        }
+
+        function getPriceOfItem($id) {
+            $query = $this->conn->query("SELECT `price` FROM `products` WHERE `id` = '$id'");
+            $res = $query->fetch_assoc();
+            return (int)$res['price'];
+        }
+
+        function setOrder(string $name,string $surname,string  $phone,string  $address,string  $time_of_purchase,string  $item_ids, int $total_price) {
+            $prepared = $this->conn->prepare("INSERT INTO `orders`(`name`, `surname`, `phone`, `address`, `time_of_purchase`, `items_ids`, `total_price`) VALUES (?,?,?,?,?,?,?)");
+            $prepared->bind_param("ssssssi", $name, $surname, $phone, $address, $time_of_purchase, $item_ids, $total_price);
+            if ($prepared->execute() == true) return 1;
+            return 0;
+            
+        }
     }
 
     $conn = new Connection();

@@ -17,4 +17,14 @@ function printItem (array $item, string $type) {
         echo "</div>";
     }
 }
+
+function setCustomerID() {
+    if (!isset($_COOKIE['customerID'])) {
+        $uniqid = uniqid('',true);
+        setcookie("customerID", $uniqid, time()+60*60);
+        $_SESSION['customerID'] = $uniqid;
+    } else {
+        $_SESSION['customerID'] = $_COOKIE['customerID'];
+    }
+}
 ?>

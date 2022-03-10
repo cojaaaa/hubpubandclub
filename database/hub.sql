@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 07, 2022 at 04:49 AM
+-- Generation Time: Mar 10, 2022 at 06:45 AM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -39,17 +39,38 @@ CREATE TABLE IF NOT EXISTS `cart` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `cart_settings`
+--
+
+CREATE TABLE IF NOT EXISTS `cart_settings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `delivery` smallint(6) NOT NULL,
+  `discount` smallint(6) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf16 COLLATE=utf16_unicode_ci;
+
+--
+-- Dumping data for table `cart_settings`
+--
+
+INSERT IGNORE INTO `cart_settings` (`id`, `delivery`, `discount`) VALUES
+(1, 200, 50);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `orders`
 --
 
 CREATE TABLE IF NOT EXISTS `orders` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` text COLLATE utf8_unicode_ci NOT NULL,
-  `surname` text COLLATE utf8_unicode_ci NOT NULL,
-  `phone` text COLLATE utf8_unicode_ci NOT NULL,
-  `adress` text COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `surname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `phone` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `time_of_purchase` datetime NOT NULL,
   `items_ids` json NOT NULL,
+  `total_price` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -222,7 +243,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `admin` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT IGNORE INTO `users` (`id`, `username`, `password`, `email`, `admin`) VALUES
+(1, 'admin', '$2y$10$64gjbk2O2zYUGgCiiY764OsUlEKyOehkoVHWcWYWta0p5nRfLpYiO', 'admin@admin.com', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -9,12 +9,6 @@ require_once ('./functions.php');
 $status = "";
 if (!isset($_SESSION["cart"])) $_SESSION["cart"]=[];
 
-// if (isset($_POST["id"]) && $_POST["id"] != "") {
-// 	$id = $_POST["id"];
-// 	array_push($_SESSION["cart"],$id);
-// 	$status = "";
-// }
-
 ?>
 
 <!DOCTYPE html>
@@ -59,6 +53,10 @@ if (!isset($_SESSION["cart"])) $_SESSION["cart"]=[];
 	<section class="ftco-section">
 		<div class="container" >
 			<div class="row" >
+
+			<!-- added to cart notification div -->
+			<div class="notify"><span id="notifyType" class=""></span></div>
+
 				<?php
 				//redsoled stampanja za div-kartice(ima ih 9) : koje tipove jela svaka od kartica sadrzi 
 				$print_divs_jela = [
@@ -102,8 +100,7 @@ if (!isset($_SESSION["cart"])) $_SESSION["cart"]=[];
 		</div>
 	</section>
 
-
-
+	
 
 
 	<?php include "footer.php"; ?>
@@ -129,6 +126,14 @@ if (!isset($_SESSION["cart"])) $_SESSION["cart"]=[];
 						cart_count.innerHTML = data.cart_count;
 						let cart_count_span = document.getElementById('cart_count_span');
 						cart_count_span.style.visibility = 'visible';
+						// let notification = document.getElementsByClassName('notify');
+						// notification.classList.toggle("active");
+						// let notificationType = document.getElementById('notifyType');
+						// notificationType.classList.toggle("success");
+						// setTimeout(function () {
+						// 	notification.classList.remove("active");
+						// 	notificationType.classList.remove("success");
+						// }, 1000);
 					}
                 });
             })
